@@ -26,5 +26,5 @@ function error($userAnswer, $rightAnswer, string $name): void
 
 function congratulations($name): void
 {
-line("Congratulations, $name!");
+    line("Congratulations, $name!");
 }

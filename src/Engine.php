@@ -8,7 +8,6 @@ use function BrainGamesPhp\Games\BrainGames\startBrainGames;
 use function BrainGamesPhp\Games\BrainGcd\startGcdGame;
 use function BrainGamesPhp\Games\BrainPrime\startPrimeGame;
 use function BrainGamesPhp\Games\BrainPrime\startProgressionGame;
-
 use function cli\line;
 use function cli\prompt;
 

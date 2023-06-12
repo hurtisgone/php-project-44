@@ -26,7 +26,6 @@ function startGcdGame(): void
     $name = greeting();
     line('Find the greatest common divisor of given numbers.');
     for ($i = 0; $i < 3; $i++) {
-
         $number1 = rand(1, 99);
         $number2 = rand(1, 99);
 
