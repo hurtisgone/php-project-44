@@ -12,7 +12,7 @@ use function cli\prompt;
 function startEvenGame(): void
 {
     $name = greeting();
-    line('What is the result of the expression?');
+    line('Answer "yes" if the number is even, otherwise answer "no".');
     for ($i = 0; $i < 3; $i++) {
         line('Question: ' . $number = rand(1, 99));
         $userAnswer = prompt('Your answer');
