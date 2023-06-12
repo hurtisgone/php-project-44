@@ -1,7 +1,10 @@
 #!/usr/bin/env php
 <?php
+
+namespace BrainGamesPhp\Cli;
+
+use function BrainGamesPhp\Engine\runGame;
+
 require_once __DIR__ . '/../vendor/autoload.php';
 
-use function BrainGamesPhp\Cli\greeting;
-
-greeting();
+runGame('brain-games');
