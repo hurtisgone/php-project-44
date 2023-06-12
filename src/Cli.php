@@ -18,13 +18,13 @@ function correct(): void
     line('Correct!');
 }
 
-function error($userAnswer, $rightAnswer, string $name): void
+function error(string $userAnswer, string $rightAnswer, string $name): void
 {
     line("'$userAnswer' is wrong answer ;(. Correct answer was '$rightAnswer'.");
     line("Let's try again, $name!");
 }
 
-function congratulations($name): void
+function congratulations(string $name): void
 {
     line("Congratulations, $name!");
 }

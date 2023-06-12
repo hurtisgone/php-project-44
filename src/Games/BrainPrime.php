@@ -9,7 +9,7 @@ use function BrainGamesPhp\Cli\error;
 use function cli\line;
 use function cli\prompt;
 
-function isPrime($number): bool
+function isPrime(int $number): bool
 {
     for ($x = 2; $x <= sqrt($number); $x++) {
         if ($number % $x == 0) {

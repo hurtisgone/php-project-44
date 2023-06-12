@@ -9,7 +9,7 @@ use function BrainGamesPhp\Cli\error;
 use function cli\line;
 use function cli\prompt;
 
-function gcd($a, $b)
+function gcd(int $a, int $b)
 {
     while ($a != $b) {
         if ($a > $b) {
