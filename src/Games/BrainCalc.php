@@ -17,7 +17,6 @@ function startCalcGame(): void
     $operation = ['+', '-', '*'];
 
     for ($i = 0; $i < count($operation); $i++) {
-
         $number1 = rand(1, 99);
         $number2 = rand(1, 99);
 
