@@ -15,7 +15,7 @@ function startProgressionGame(): void
     line('What number is missing in the progression?');
 
     for ($i = 0; $i < 3; $i++) {
-        $progression = [rand(0,20)];
+        $progression = [rand(0, 20)];
         $length = rand(5, 10);
         $progressionStep = rand(2, 5);
 
@@ -28,7 +28,7 @@ function startProgressionGame(): void
         $progression[$randomValue] = '..';
 
         $progression = implode(' ', $progression);
-        line($progression);
+        line('Question: ' . $progression);
 
         $userAnswer = prompt('Your answer');
         if ($userAnswer == $rightAnswer) {
